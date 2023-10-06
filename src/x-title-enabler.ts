@@ -28,7 +28,6 @@ function _findCards() {
             current.style.height = 'auto';
             current = current.parentElement;
           }
-          console.log('link', span.textContent);
         }
       }
       node._xTitleEnabled = true;
