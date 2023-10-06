@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "X Title Enabler",
-  "version": "0.1",
+  "version": "0.1.1",
   "description": "An extension that shows the title of the page linked on X/Twitter",
   "icons": {
     "16": "images/icon16.png",
@@ -9,9 +9,6 @@
     "48": "images/icon48.png",
     "128": "images/icon128.png"
   },
-  "permissions": [
-    "webNavigation"
-  ],
   "background": {
     "service_worker": "lib/background.js"
   },
